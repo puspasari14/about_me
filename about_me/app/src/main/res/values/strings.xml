@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">aboutme</string>
+    <string name="profile_name">Puspa Sari Dian A</string>
+    <string name="description_profil">foto saya</string>
+    <string name="detail">
+LinearLayout \n\n
+
+        juga mendukung penetapan bobot ke masing-masing anak dengan atribut android:layout_weight. Atribut ini menetapkan nilai "penting" ke sebuah tampilan dalam arti seberapa banyak ruang yang akan ditempatinya di layar. Nilai bobot yang lebih besar memungkinkannya diperluas untuk mengisi ruang yang tersisa di tampilan induk. Tampilan anak bisa menetapkan nilai bobot, kemudian ruang yang tersisa dalam kelompok tampilan diberikan ke anak dalam proporsi bobot yang dideklarasikan untuk mereka. Bobot default adalah nol.\n\n\n
+
+Distribusi setara\n\n
+
+    Untuk membuat layout linier di mana setiap anak menggunakan jumlah ruang yang sama di layar, setel android:layout_height setiap tampilan ke "0dp" (untuk layout vertikal) atau android:layout_width setiap tampilan ke "0dp" (untuk layout horizontal). Kemudian setel android:layout_weight setiap tampilan ke "1"./n/n/n
+
+Distribusi tidak setara\n\n
+
+    Anda juga dapat membuat layout linier tempat elemen anak menggunakan jumlah ruang yang berbeda di layar:\n\n\n
+
+        1.Jika ada tiga kolom teks dan dua di antaranya mendeklarasikan bobot 1, sementara yang lain tidak diberikan bobot, kolom teks ketiga yang tanpa bobot tidak akan bertambah. Sebagai gantinya, kolom teks ketiga ini hanya akan menempati area yang diperlukan oleh kontennya. Di samping itu, dua kolom lainnya akan diperluas secara seimbang untuk mengisi ruang yang tersisa setelah ketiga kolom diukur.\n
+
+        2.Jika ada tiga kolom teks dan dua di antaranya mendeklarasikan bobot 1, sementara kolom ketiga diberikan bobot 2 (sebagai ganti 0), maka kolom ketiga kini dideklarasikan lebih penting daripada kedua kolom lainnya, jadi kolom tersebut mendapatkan setengah jumlah ruang yang tersisa, sedangkan dua yang pertama akan berbagi sisanya secara seimbang.\n
+    </string>
+</resources>
